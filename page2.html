@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+
+</head>
+
+<body>
+    <form action="#" method="GET">
+        <table>
+            <tr>
+                <td><label>Your name: </label></td>
+                <td>
+                    <input type="text" name="your_name" required placeholder="Put name here" /></label><br />
+                </td>
+            </tr>
+            <tr>
+                <td><label>Your password: </label>
+                <td><input type="password" name="your_password" required /></label></td>
+            </tr>
+
+            <tr>
+                <td>Country</td>
+
+                <td>
+                    <select name="country">
+                        <option value="pl">Poland</option>
+                        <option value="fi">Finland</option>
+                        <option value="tr">Turkey</option>
+                        <option value="us">USA</option>
+                        <option value="zm">Zimbabwe</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><textarea name="textarea" rows="20" cols="80"
+                        placeholder="Put some comment here"></textarea></td>
+            </tr>
+
+            <tr>
+                
+                <td><label for="rules">I accept the rules</label></td>
+                <td><input type="checkbox" name="rules" id="rules" required />
+            </tr>
+
+            <tr>
+                <td colspan="2"><input type="submit" value="Log in" /> </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
