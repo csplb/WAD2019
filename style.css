@@ -1,0 +1,29 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article {
+    
+}
+
+article.wide {
+    
+}
+
+article.important {
+    background-color: coral;
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        grid-template-columns: 1fr;
+    }
+
+    article.important {
+        background-color: blueviolet;
+        grid-column: 1 / 2;        
+    }
+}
